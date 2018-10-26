@@ -49,6 +49,7 @@ ISR(TIMER1_OVF_vect){
 	TCNT1 = T1BOTTOM; // reload TC1
 	t--;
 }
+//bernardo
 
 /********************************************************
  * Timer 1 inicializacao em modo NORMAL
